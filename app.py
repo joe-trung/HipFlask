@@ -49,9 +49,9 @@ def student(student_id):
 # ...
 
 
-@app.route('/create/', methods=('GET', 'POST'))
-def create():
-    return render_template('create.html')
+# @app.route('/create/', methods=('GET', 'POST'))
+# def create():
+#     return render_template('create.html')
 
 
 @app.route('/create/', methods=('GET', 'POST'))
